@@ -1,5 +1,7 @@
 package com.Flexon.javabasics;
 import java.util.*;
+
+import tasks.dayOne;
 public class FirstJavaProgram {
 
 	public static void main(String[] args) {
@@ -23,6 +25,8 @@ public class FirstJavaProgram {
 		} else {
 			System.out.println("Total was lower than the limit");
 		}
+		dayOne task1 = new dayOne();
+		task1.task();
 	}
 
 //	public static float convert() {
